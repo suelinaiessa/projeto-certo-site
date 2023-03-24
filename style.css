@@ -1,15 +1,15 @@
 *{  
     margin: 0;
     padding: 0;
-
 }
 
 header {
-background-color: rgb(114, 159, 199);
+background-color: rgb(100, 163, 218);
 color: rgb(20, 20, 20);
 display: flex;
 justify-content: space-around;
-padding: 24px 0
+align-items: center;
+padding: 24px 0;
 }
 
 .cabeçalho-imagem{
@@ -18,4 +18,6 @@ width: 20%;
 
 .cabecalho-lista-item{
     display: inline-block;
+    margin : 0 16px;
+    font-size: 24px;
 }
